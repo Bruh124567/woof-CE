@@ -13,7 +13,7 @@ jobs:
             compat-distro-version: bullseye64
           - arch: x86
             compat-distro-version: bullseye
-    if: github.repository == 'puppylinux-woof-CE/woof-CE'
+    if: github.repository == 'Bruh12456/woof-CE'
     uses: ./.github/workflows/build.yml
     with:
       repo: ${{ github.repository }}
